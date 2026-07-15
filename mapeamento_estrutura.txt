@@ -1,0 +1,431 @@
+==========================================================================================
+RELATÓRIO DE MAPEAMENTO COMPLETO DE DIRETÓRIOS E ARQUIVOS
+Diretório Raiz: X:\minicurso-genomica-clinica
+Gerado em: 15/07/2026 15:48:04
+==========================================================================================
+
+📁 Raiz (./)
+------------------------------------------------------------
+  ├── index.html
+  │   └── Tipo: HTML | Tam: 41.25 KB | Modificado: 15/07/2026 15:45
+  ├── mapeamento_estrutura.txt
+  │   └── Tipo: TXT | Tam: 16.80 KB | Modificado: 15/07/2026 15:32
+  ├── mapear_arquivos.py
+  │   └── Tipo: PY | Tam: 4.06 KB | Modificado: 15/07/2026 15:30
+  ├── README.md
+  │   └── Tipo: MD | Tam: 2.84 KB | Modificado: 15/07/2026 17:46
+
+📁 .git
+------------------------------------------------------------
+  ├── COMMIT_EDITMSG
+  │   └── Tipo: [SEM EXTENSÃO] | Tam: 62.00 B | Modificado: 15/07/2026 15:46
+  ├── config
+  │   └── Tipo: [SEM EXTENSÃO] | Tam: 321.00 B | Modificado: 15/07/2026 14:53
+  ├── description
+  │   └── Tipo: [SEM EXTENSÃO] | Tam: 73.00 B | Modificado: 15/07/2026 14:53
+  ├── FETCH_HEAD
+  │   └── Tipo: [SEM EXTENSÃO] | Tam: 118.00 B | Modificado: 15/07/2026 15:46
+  ├── HEAD
+  │   └── Tipo: [SEM EXTENSÃO] | Tam: 21.00 B | Modificado: 15/07/2026 14:53
+  ├── index
+  │   └── Tipo: [SEM EXTENSÃO] | Tam: 2.53 KB | Modificado: 15/07/2026 15:46
+
+  📁 .git\hooks
+  ----------------------------------------------------------
+    ├── applypatch-msg.sample
+    │   └── Tipo: SAMPLE | Tam: 478.00 B | Modificado: 15/07/2026 14:53
+    ├── commit-msg.sample
+    │   └── Tipo: SAMPLE | Tam: 896.00 B | Modificado: 15/07/2026 14:53
+    ├── fsmonitor-watchman.sample
+    │   └── Tipo: SAMPLE | Tam: 4.62 KB | Modificado: 15/07/2026 14:53
+    ├── post-update.sample
+    │   └── Tipo: SAMPLE | Tam: 189.00 B | Modificado: 15/07/2026 14:53
+    ├── pre-applypatch.sample
+    │   └── Tipo: SAMPLE | Tam: 424.00 B | Modificado: 15/07/2026 14:53
+    ├── pre-commit.sample
+    │   └── Tipo: SAMPLE | Tam: 1.61 KB | Modificado: 15/07/2026 14:53
+    ├── pre-merge-commit.sample
+    │   └── Tipo: SAMPLE | Tam: 416.00 B | Modificado: 15/07/2026 14:53
+    ├── pre-push.sample
+    │   └── Tipo: SAMPLE | Tam: 1.34 KB | Modificado: 15/07/2026 14:53
+    ├── pre-rebase.sample
+    │   └── Tipo: SAMPLE | Tam: 4.78 KB | Modificado: 15/07/2026 14:53
+    ├── pre-receive.sample
+    │   └── Tipo: SAMPLE | Tam: 544.00 B | Modificado: 15/07/2026 14:53
+    ├── prepare-commit-msg.sample
+    │   └── Tipo: SAMPLE | Tam: 1.46 KB | Modificado: 15/07/2026 14:53
+    ├── push-to-checkout.sample
+    │   └── Tipo: SAMPLE | Tam: 2.72 KB | Modificado: 15/07/2026 14:53
+    ├── sendemail-validate.sample
+    │   └── Tipo: SAMPLE | Tam: 2.25 KB | Modificado: 15/07/2026 14:53
+    ├── update.sample
+    │   └── Tipo: SAMPLE | Tam: 3.56 KB | Modificado: 15/07/2026 14:53
+
+  📁 .git\info
+  ----------------------------------------------------------
+    ├── exclude
+    │   └── Tipo: [SEM EXTENSÃO] | Tam: 240.00 B | Modificado: 15/07/2026 14:53
+
+  📁 .git\logs
+  ----------------------------------------------------------
+    ├── HEAD
+    │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.75 KB | Modificado: 15/07/2026 15:46
+
+    📁 .git\logs\refs
+    --------------------------------------------------------
+      [Pasta vazia ou sem arquivos diretos]
+
+      📁 .git\logs\refs\heads
+      ------------------------------------------------------
+        ├── main
+        │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.56 KB | Modificado: 15/07/2026 15:46
+
+      📁 .git\logs\refs\remotes
+      ------------------------------------------------------
+        [Pasta vazia ou sem arquivos diretos]
+
+        📁 .git\logs\refs\remotes\origin
+        ----------------------------------------------------
+          ├── HEAD
+          │   └── Tipo: [SEM EXTENSÃO] | Tam: 150.00 B | Modificado: 15/07/2026 15:01
+          ├── main
+          │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.09 KB | Modificado: 15/07/2026 15:46
+
+  📁 .git\objects
+  ----------------------------------------------------------
+    [Pasta vazia ou sem arquivos diretos]
+
+    📁 .git\objects\02
+    --------------------------------------------------------
+      ├── 6451cc0b74ce5f79a70fb7aff5b172cdddf552
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 88.00 B | Modificado: 15/07/2026 14:53
+      ├── 7af4be6c45c2d66777c3888e9ff2d07c123b26
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 88.00 B | Modificado: 15/07/2026 15:10
+      ├── 812c066be5cdda76c1000fd66133dd1b75c460
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 9.91 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\08
+    --------------------------------------------------------
+      ├── 71c0e558ec32f7703cd5cce602a9d0cf580906
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 193.00 B | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\0e
+    --------------------------------------------------------
+      ├── 29c7438cc228daea1eef07a6f965c1ff185ed3
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 11.28 KB | Modificado: 15/07/2026 15:10
+
+    📁 .git\objects\11
+    --------------------------------------------------------
+      ├── 10a7d3049c7463d29794e646a1f405355b9590
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.43 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\1c
+    --------------------------------------------------------
+      ├── ad1ab2591c58c498491016067f72a83416c49d
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 11.59 KB | Modificado: 15/07/2026 15:46
+
+    📁 .git\objects\25
+    --------------------------------------------------------
+      ├── bd730a1f4c575097c37c9ce48eedc9a70ea49b
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.17 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\26
+    --------------------------------------------------------
+      ├── 708c93cc573e8344eaf4bd777321b0ca341e2c
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 88.00 B | Modificado: 15/07/2026 15:13
+
+    📁 .git\objects\2c
+    --------------------------------------------------------
+      ├── bee84116a3146e52675d2dc0f4512a537fe52a
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 3.24 KB | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\30
+    --------------------------------------------------------
+      ├── 8d8d17b6e915abf335055c153b33aa35a00397
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 136.00 B | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\46
+    --------------------------------------------------------
+      ├── 9f9918f7deffc2bb3235bf8859b9c9e5c0f841
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 11.27 KB | Modificado: 15/07/2026 15:13
+
+    📁 .git\objects\4c
+    --------------------------------------------------------
+      ├── 4d16d0e9ad17c47e2a2858fc5d7491c7cef9e9
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 213.00 B | Modificado: 15/07/2026 15:06
+
+    📁 .git\objects\4f
+    --------------------------------------------------------
+      ├── 8de91db320f8ae4a851952f9684f416cfc2bdc
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 594.00 B | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\5a
+    --------------------------------------------------------
+      ├── 1269b89c8bbd92e53f84459aa7b632f631ca52
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 203.00 B | Modificado: 15/07/2026 15:46
+
+    📁 .git\objects\5b
+    --------------------------------------------------------
+      ├── 5a60bf5f8882107e961d9ff73a814644e37c76
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 250.48 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\5f
+    --------------------------------------------------------
+      ├── 9f8db344377730ad2a6e9b9c40d55e21593741
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 196.00 B | Modificado: 15/07/2026 15:10
+
+    📁 .git\objects\60
+    --------------------------------------------------------
+      ├── a8131414fd83fee19a7e0e3ea8e909827cb97d
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 240.29 KB | Modificado: 15/07/2026 15:24
+      ├── c72e8f323ddbde24423888e97bfa6f4a4525f7
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 178.00 B | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\62
+    --------------------------------------------------------
+      ├── 358ee0f7d76a27c82499924ed416357640cee1
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.38 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\6a
+    --------------------------------------------------------
+      ├── d0008d170809e0d539263d5c1e1abdcddd315a
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 150.00 B | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\70
+    --------------------------------------------------------
+      ├── d60f55decbc90cea658d0e15c00ab3a9c51947
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.27 KB | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\78
+    --------------------------------------------------------
+      ├── 38c269230243da6fb14a3702c168ebbe761ae6
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 159.00 B | Modificado: 15/07/2026 14:53
+      ├── 9dfd24b49331a4acdeaa14f14ac7d4819512e0
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.29 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\7c
+    --------------------------------------------------------
+      ├── 227c688a909be4ef0da334242b29a54ac9daaa
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.52 KB | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\82
+    --------------------------------------------------------
+      ├── dfcf464d8a9cedb6594a8fd58afab9f9350bfa
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 922.00 B | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\8f
+    --------------------------------------------------------
+      ├── e6bed0fb2a67216f22a88c2bb48dcd6fde3441
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 11.24 KB | Modificado: 15/07/2026 15:06
+
+    📁 .git\objects\9c
+    --------------------------------------------------------
+      ├── a081eeb6f9490fdc63170c61d1d161644cf6fa
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 784.41 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\a1
+    --------------------------------------------------------
+      ├── 1c72a1067c4f0dcc6f42721417980042358a52
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 9.97 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\a5
+    --------------------------------------------------------
+      ├── 2390480a78fb11fc95ebab84a36f6b61d10cb6
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.73 KB | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\a6
+    --------------------------------------------------------
+      ├── 035f116e3dd89bc4c944508c8b83c75b1ec75c
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 717.75 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\a8
+    --------------------------------------------------------
+      ├── f9cb03de242438b63659022d5b9185add9cadd
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 672.00 B | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\aa
+    --------------------------------------------------------
+      ├── 9f72661b43e7a74adf9a08eed28fc94aa7394c
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 8.73 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\b0
+    --------------------------------------------------------
+      ├── 255abf6e114a737ca883d13283fcfe09bbd571
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 169.77 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\b2
+    --------------------------------------------------------
+      ├── 709392385b773c54d143dc80cbf25b2e757883
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 88.00 B | Modificado: 15/07/2026 15:06
+
+    📁 .git\objects\b4
+    --------------------------------------------------------
+      ├── 0cc4da8a228045fc1c74b6ff8cb6d323603dae
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 10.89 KB | Modificado: 15/07/2026 14:53
+
+    📁 .git\objects\b5
+    --------------------------------------------------------
+      ├── 1684119016fec50952f168f1414a1e36fbbd37
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 240.85 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\b6
+    --------------------------------------------------------
+      ├── 4bb0dab62826bd567cf9ab5d4efc1a7ccc1a86
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 240.04 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\c3
+    --------------------------------------------------------
+      ├── 84fc1e02f927ecbbe2264c40413f3dc43746d7
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 727.46 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\cc
+    --------------------------------------------------------
+      ├── bc981f1bd68b6755118a8462c6b097c4144f30
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 1.47 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\db
+    --------------------------------------------------------
+      ├── f6c17ae7132cbff988cdbed7948beb8ab84d83
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 184.00 B | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\dc
+    --------------------------------------------------------
+      ├── 420234565bef391b6799286ef6dfd6618bc541
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 195.00 B | Modificado: 15/07/2026 15:13
+
+    📁 .git\objects\dd
+    --------------------------------------------------------
+      ├── 474fefd20b8db16af29c86b9e22df7eb58cdab
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 268.00 B | Modificado: 15/07/2026 15:46
+
+    📁 .git\objects\e1
+    --------------------------------------------------------
+      ├── d569d3a5885b3281c14217c1eedf2da71be624
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 7.58 MB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\ec
+    --------------------------------------------------------
+      ├── 51e90ad9030e9eee1411add5d545ed3a2bf9b7
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 236.17 KB | Modificado: 15/07/2026 15:24
+
+    📁 .git\objects\f3
+    --------------------------------------------------------
+      ├── 51005f5204dda0a2347abac2b81fbda5230041
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 11.41 KB | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\f9
+    --------------------------------------------------------
+      ├── 8e4fc875a1abbc106ef6691e2a01222cc491b8
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 269.00 B | Modificado: 15/07/2026 15:40
+
+    📁 .git\objects\info
+    --------------------------------------------------------
+      [Pasta vazia ou sem arquivos diretos]
+
+    📁 .git\objects\pack
+    --------------------------------------------------------
+      [Pasta vazia ou sem arquivos diretos]
+
+  📁 .git\refs
+  ----------------------------------------------------------
+    [Pasta vazia ou sem arquivos diretos]
+
+    📁 .git\refs\heads
+    --------------------------------------------------------
+      ├── main
+      │   └── Tipo: [SEM EXTENSÃO] | Tam: 41.00 B | Modificado: 15/07/2026 15:46
+
+    📁 .git\refs\remotes
+    --------------------------------------------------------
+      [Pasta vazia ou sem arquivos diretos]
+
+      📁 .git\refs\remotes\origin
+      ------------------------------------------------------
+        ├── HEAD
+        │   └── Tipo: [SEM EXTENSÃO] | Tam: 30.00 B | Modificado: 15/07/2026 15:01
+        ├── main
+        │   └── Tipo: [SEM EXTENSÃO] | Tam: 41.00 B | Modificado: 15/07/2026 15:46
+
+    📁 .git\refs\tags
+    --------------------------------------------------------
+      [Pasta vazia ou sem arquivos diretos]
+
+📁 artigos
+------------------------------------------------------------
+  ├── ACGS-2024_UK-practice-guidelines-for-variant-classification.pdf
+  │   └── Tipo: PDF | Tam: 1.62 MB | Modificado: 06/11/2025 03:18
+  ├── American J of Med Genetics Pt A - 2024 - Jackson - Applying data science methodologies with artificial intelligence variant.pdf
+  │   └── Tipo: PDF | Tam: 1.63 MB | Modificado: 06/11/2025 03:28
+  ├── Analysis workflow to assess de novo genetic variants from human whole-exome sequencing.pdf
+  │   └── Tipo: PDF | Tam: 2.03 MB | Modificado: 19/11/2025 03:18
+  ├── Assessments of Somatic Variant Classification.pdf
+  │   └── Tipo: PDF | Tam: 1.02 MB | Modificado: 20/08/2025 12:00
+  ├── BioMed Research International.pdf
+  │   └── Tipo: PDF | Tam: 753.11 KB | Modificado: 05/10/2025 15:14
+  ├── Clinical Inte.pdf
+  │   └── Tipo: PDF | Tam: 1.58 MB | Modificado: 08/10/2025 03:46
+  ├── estrutura_pdfs.txt
+  │   └── Tipo: TXT | Tam: 2.67 KB | Modificado: 15/07/2026 15:28
+  ├── gerar_relatorio.py
+  │   └── Tipo: PY | Tam: 2.79 KB | Modificado: 15/07/2026 15:27
+  ├── Guidelines AC.pdf
+  │   └── Tipo: PDF | Tam: 361.37 KB | Modificado: 06/11/2025 03:12
+  ├── Quaio et al..pdf
+  │   └── Tipo: PDF | Tam: 1.62 MB | Modificado: 04/10/2025 18:05
+  ├── Sherloc.pdf
+  │   └── Tipo: PDF | Tam: 1.78 MB | Modificado: 06/11/2025 03:12
+  ├── WES Prenatal.pdf
+  │   └── Tipo: PDF | Tam: 207.73 KB | Modificado: 08/10/2025 03:35
+
+📁 dados
+------------------------------------------------------------
+  ├── Case 02.vcf
+  │   └── Tipo: VCF | Tam: 57.77 MB | Modificado: 06/11/2025 04:53
+  ├── Case 03.vcf
+  │   └── Tipo: VCF | Tam: 44.52 MB | Modificado: 06/11/2025 04:53
+  ├── Case 04.vcf
+  │   └── Tipo: VCF | Tam: 58.13 MB | Modificado: 06/11/2025 04:53
+  ├── Case01.vcf
+  │   └── Tipo: VCF | Tam: 50.16 MB | Modificado: 06/11/2025 04:53
+
+📁 materiais
+------------------------------------------------------------
+  ├── Case 1 - Descrição.pdf
+  │   └── Tipo: PDF | Tam: 254.97 KB | Modificado: 12/11/2025 06:19
+  ├── Case 2 - Descrição.pdf
+  │   └── Tipo: PDF | Tam: 250.54 KB | Modificado: 12/11/2025 07:33
+  ├── Case 3 - Descrição.pdf
+  │   └── Tipo: PDF | Tam: 255.13 KB | Modificado: 12/11/2025 07:48
+  ├── Case 4 - Descrição.pdf
+  │   └── Tipo: PDF | Tam: 254.53 KB | Modificado: 12/11/2025 08:00
+
+  📁 materiais\Material para o 1° Modulo
+  ----------------------------------------------------------
+    ├── Galaxy-Workflow-Workflow_EXOME_Data_Analysis.ga
+    │   └── Tipo: GA | Tam: 30.90 KB | Modificado: 16/05/2026 17:28
+    ├── HPO Treinamento..txt
+    │   └── Tipo: TXT | Tam: 58.00 B | Modificado: 09/11/2025 13:05
+    ├── NewCase_Exemple.vcf.gz
+    │   └── Tipo: GZ | Tam: 172.52 MB | Modificado: 09/11/2025 06:29
+    ├── Terminologias e Conceitos em Sequenciamento de Exoma..pdf
+    │   └── Tipo: PDF | Tam: 814.27 KB | Modificado: 08/11/2025 12:20
+
+==========================================================================================
+RESUMO DA PASTA
+==========================================================================================
+Total de pastas mapeadas: 63
+Total de arquivos encontrados: 103
+Tamanho total ocupado: 444.13 MB
+
+Distribuição por Extensão:
+  - [Sem extensão]: 61 arquivo(s)
+  - .pdf: 15 arquivo(s)
+  - .sample: 14 arquivo(s)
+  - .vcf: 4 arquivo(s)
+  - .txt: 3 arquivo(s)
+  - .py: 2 arquivo(s)
+  - .html: 1 arquivo(s)
+  - .md: 1 arquivo(s)
+  - .ga: 1 arquivo(s)
+  - .gz: 1 arquivo(s)
+==========================================================================================

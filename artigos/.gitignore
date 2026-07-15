@@ -1,0 +1,13 @@
+# Scripts de mapeamento auxiliares
+*.py
+estrutura_pdfs.txt
+mapeamento_estrutura.txt
+
+# VCF grande hospedado no Google Drive
+NewCase_Exemple.vcf.gz
+**/NewCase_Exemple.vcf.gz
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+*.tmp
