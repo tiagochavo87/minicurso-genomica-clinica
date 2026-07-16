@@ -617,12 +617,10 @@
         title: 'Fundamentos de WES e do fluxo bioinformático',
         subtitle: 'Do FASTQ ao VCF anotado',
         materials: [
-          { type: 'pdf',      title: 'Terminologias e conceitos em sequenciamento de exoma', file: 'materiais/mod01/terminologias_conceitos_wes.pdf', size: '814 KB', desc: 'Material teórico de apoio ao módulo.' },
-          { type: 'workflow', title: 'Workflow Galaxy · Exome Data Analysis',                 file: 'materiais/mod01/workflow_exome_analysis.ga',        size: '31 KB',  desc: 'Importar diretamente no Galaxy.' },
-          { type: 'data',     title: 'HPO · termos de treinamento',                           file: 'materiais/mod01/hpo_treinamento.txt',               size: '58 B',   desc: 'Lista de termos HPO usados nos exercícios.' },
-          { type: 'data',     title: 'VCF de exemplo · NewCase_Exemple (Google Drive)',       file: 'https://drive.google.com/file/d/1DBg1Yg_yCU4mrk4XuH03uupMoHcNMpZZ/view?usp=drive_link',                 size: '172 MB', desc: 'Hospedado no Google Drive por exceder 100 MB.' },
-          // Adicione os slides do módulo aqui quando estiverem prontos:
-          // { type: 'pdf', title: 'Slides · Módulo 01', file: 'materiais/mod01/slides.pdf', size: '4.2 MB' },
+          { type: 'pdf',      title: 'Terminologias e conceitos em sequenciamento de exoma', file: 'materiais/Material%20para%20o%201%C2%B0%20Modulo/Terminologias%20e%20Conceitos%20em%20Sequenciamento%20de%20Exoma..pdf', size: '814 KB', desc: 'Material teórico de apoio ao módulo.' },
+          { type: 'workflow', title: 'Workflow Galaxy · Exome Data Analysis',                 file: 'materiais/Material%20para%20o%201%C2%B0%20Modulo/Galaxy-Workflow-Workflow_EXOME_Data_Analysis.ga', size: '31 KB',  desc: 'Importar diretamente no Galaxy.' },
+          { type: 'data',     title: 'HPO · termos de treinamento',                           file: 'materiais/Material%20para%20o%201%C2%B0%20Modulo/HPO%20Treinamento..txt', size: '58 B', desc: 'Lista de termos HPO usados nos exercícios.' },
+          { type: 'data',     title: 'VCF de exemplo · NewCase_Exemple (Google Drive)',       file: 'https://drive.google.com/file/d/1DBg1Yg_yCU4mrk4XuH03uupMoHcNMpZZ/view?usp=drive_link', size: '172 MB', desc: 'Hospedado no Google Drive por exceder 100 MB.' },
         ],
       },
       {
@@ -631,7 +629,7 @@
         title: 'Critérios ACMG/AMP e refinamentos ClinGen',
         subtitle: 'Evidências de patogenicidade e benignidade',
         materials: [
-          // { type: 'pdf', title: 'Slides · Módulo 02', file: 'materiais/mod02_slides.pdf', size: '5.8 MB' },
+          // Adicione os slides e materiais do Módulo 02 aqui quando estiverem prontos.
         ],
       },
       {
@@ -640,7 +638,7 @@
         title: 'Preditores in silico e bases de referência',
         subtitle: 'gnomAD, ClinVar, REVEL, AlphaMissense, SpliceAI',
         materials: [
-          // { type: 'pdf', title: 'Slides · Módulo 03', file: 'materiais/mod03_slides.pdf', size: '6.4 MB' },
+          // Adicione os slides e materiais do Módulo 03 aqui quando estiverem prontos.
         ],
       },
       {
@@ -649,7 +647,7 @@
         title: 'Plataforma Franklin e estudos de caso',
         subtitle: 'Curadoria manual e assistida em doenças mendelianas',
         materials: [
-          // { type: 'pdf', title: 'Slides · Módulo 04', file: 'materiais/mod04_slides.pdf', size: '7.2 MB' },
+          // Adicione os slides e materiais do Módulo 04 aqui quando estiverem prontos.
         ],
       },
     ];
@@ -658,21 +656,17 @@
     // Dados práticos (VCFs, workflows, planilhas)
     // ------------------------------------------------------------
     const DATA_FILES = [
-      { type: 'pdf',  title: 'Caso 01 · Descrição clínica', file: 'materiais/case01_descricao.pdf', size: '255 KB', desc: 'Contexto do paciente e fenótipo.' },
-      { type: 'data', title: 'Caso 01 · VCF do exoma',      file: 'dados/case01.vcf.gz',           desc: 'Comprimido (gzip). Descompactar antes de usar.' },
+      { type: 'pdf',  title: 'Caso 01 · Descrição clínica', file: 'materiais/Case%201%20-%20Descri%C3%A7%C3%A3o.pdf', size: '255 KB', desc: 'Contexto do paciente e fenótipo.' },
+      { type: 'data', title: 'Caso 01 · VCF do exoma',      file: 'dados/Case01.vcf',                                  size: '50 MB',  desc: 'VCF do exoma anotado.' },
 
-      { type: 'pdf',  title: 'Caso 02 · Descrição clínica', file: 'materiais/case02_descricao.pdf', size: '251 KB', desc: 'Contexto do paciente e fenótipo.' },
-      { type: 'data', title: 'Caso 02 · VCF do exoma',      file: 'dados/case02.vcf.gz',           desc: 'Comprimido (gzip). Descompactar antes de usar.' },
+      { type: 'pdf',  title: 'Caso 02 · Descrição clínica', file: 'materiais/Case%202%20-%20Descri%C3%A7%C3%A3o.pdf', size: '251 KB', desc: 'Contexto do paciente e fenótipo.' },
+      { type: 'data', title: 'Caso 02 · VCF do exoma',      file: 'dados/Case%2002.vcf',                               size: '58 MB',  desc: 'VCF do exoma anotado.' },
 
-      { type: 'pdf',  title: 'Caso 03 · Descrição clínica', file: 'materiais/case03_descricao.pdf', size: '255 KB', desc: 'Contexto do paciente e fenótipo.' },
-      { type: 'data', title: 'Caso 03 · VCF do exoma',      file: 'dados/case03.vcf.gz',           desc: 'Comprimido (gzip). Descompactar antes de usar.' },
+      { type: 'pdf',  title: 'Caso 03 · Descrição clínica', file: 'materiais/Case%203%20-%20Descri%C3%A7%C3%A3o.pdf', size: '255 KB', desc: 'Contexto do paciente e fenótipo.' },
+      { type: 'data', title: 'Caso 03 · VCF do exoma',      file: 'dados/Case%2003.vcf',                               size: '44 MB',  desc: 'VCF do exoma anotado.' },
 
-      { type: 'pdf',  title: 'Caso 04 · Descrição clínica', file: 'materiais/case04_descricao.pdf', size: '255 KB', desc: 'Contexto do paciente e fenótipo.' },
-      { type: 'data', title: 'Caso 04 · VCF do exoma',      file: 'dados/case04.vcf.gz',           desc: 'Comprimido (gzip). Descompactar antes de usar.' },
-
-      // Adicione workflows Galaxy e planilhas conforme forem sendo produzidos.
-      // { type: 'workflow', title: 'Workflow Galaxy · anotação WES', file: 'dados/galaxy_workflow_wes.ga', size: '48 KB', desc: 'Fluxo do FASTQ ao VCF anotado.' },
-      // { type: 'pdf', title: 'Planilha · classificação ACMG', file: 'dados/planilha_acmg.xlsx', size: '78 KB', desc: 'Template para registro do raciocínio de classificação.' },
+      { type: 'pdf',  title: 'Caso 04 · Descrição clínica', file: 'materiais/Case%204%20-%20Descri%C3%A7%C3%A3o.pdf', size: '255 KB', desc: 'Contexto do paciente e fenótipo.' },
+      { type: 'data', title: 'Caso 04 · VCF do exoma',      file: 'dados/Case%2004.vcf',                               size: '58 MB',  desc: 'VCF do exoma anotado.' },
     ];
 
     // ------------------------------------------------------------
@@ -689,16 +683,16 @@
     // Artigos de referência
     // ------------------------------------------------------------
     const ARTICLES = [
-      { title: 'Standards and guidelines for the interpretation of sequence variants', authors: 'Richards et al., Genet Med, 2015', file: 'artigos/richards_2015_acmg.pdf', tag: 'FUNDAMENTAL' },
-      { title: 'UK Practice Guidelines for Variant Classification v1.2', authors: 'ACGS, 2024', file: 'artigos/acgs_2024_uk_guidelines.pdf', tag: 'ACGS 2024' },
-      { title: 'Sherloc: refinamento das diretrizes ACMG–AMP', authors: 'Nykamp et al., Genet Med, 2017', file: 'artigos/sherloc_nykamp_2017.pdf', tag: 'REFINAMENTO' },
-      { title: 'Clinical Interpretation and Management of Genetic Variants', authors: 'Revisão · interpretação clínica', file: 'artigos/clinical_interpretation.pdf', tag: 'INTERPRETAÇÃO' },
-      { title: 'Standards for constitutional sequence variants classification', authors: 'Quaio et al., Einstein, 2023', file: 'artigos/quaio_2023_einstein.pdf', tag: 'BRASIL 2023' },
-      { title: 'Analysis workflow to assess de novo genetic variants from WES', authors: 'Workflow · variantes de novo', file: 'artigos/analysis_workflow_denovo_wes.pdf', tag: 'DE NOVO' },
-      { title: 'Whole Exome Sequencing: Applications in Prenatal Genetics', authors: 'Revisão · WES pré-natal', file: 'artigos/wes_prenatal.pdf', tag: 'PRÉ-NATAL' },
-      { title: 'Data science and AI-based variant reinterpretation', authors: 'Jackson et al., Am J Med Genet A, 2024', file: 'artigos/jackson_2024_ai_reinterpretation.pdf', tag: 'IA · 2024' },
-      { title: 'Assessments of Somatic Variant Classification (AMP/ASCO/CAP)', authors: 'Revisão · variantes somáticas', file: 'artigos/somatic_variant_classification.pdf', tag: 'SOMÁTICAS' },
-      { title: 'Revisão sobre interpretação de variantes', authors: 'BioMed Research International', file: 'artigos/biomed_research_review.pdf', tag: 'REVISÃO' },
+      { title: 'Standards and guidelines for the interpretation of sequence variants', authors: 'Richards et al., Genet Med, 2015', file: 'artigos/Guidelines%20AC.pdf', tag: 'FUNDAMENTAL' },
+      { title: 'UK Practice Guidelines for Variant Classification v1.2', authors: 'ACGS, 2024', file: 'artigos/ACGS-2024_UK-practice-guidelines-for-variant-classification.pdf', tag: 'ACGS 2024' },
+      { title: 'Sherloc: refinamento das diretrizes ACMG–AMP', authors: 'Nykamp et al., Genet Med, 2017', file: 'artigos/Sherloc.pdf', tag: 'REFINAMENTO' },
+      { title: 'Clinical Interpretation and Management of Genetic Variants', authors: 'Revisão · interpretação clínica', file: 'artigos/Clinical%20Inte.pdf', tag: 'INTERPRETAÇÃO' },
+      { title: 'Standards for constitutional sequence variants classification', authors: 'Quaio et al., Einstein, 2023', file: 'artigos/Quaio%20et%20al..pdf', tag: 'BRASIL 2023' },
+      { title: 'Analysis workflow to assess de novo genetic variants from WES', authors: 'Workflow · variantes de novo', file: 'artigos/Analysis%20workflow%20to%20assess%20de%20novo%20genetic%20variants%20from%20human%20whole-exome%20sequencing.pdf', tag: 'DE NOVO' },
+      { title: 'Whole Exome Sequencing: Applications in Prenatal Genetics', authors: 'Revisão · WES pré-natal', file: 'artigos/WES%20Prenatal.pdf', tag: 'PRÉ-NATAL' },
+      { title: 'Data science and AI-based variant reinterpretation', authors: 'Jackson et al., Am J Med Genet A, 2024', file: 'artigos/American%20J%20of%20Med%20Genetics%20Pt%20A%20-%202024%20-%20Jackson%20-%20Applying%20data%20science%20methodologies%20with%20artificial%20intelligence%20variant.pdf', tag: 'IA · 2024' },
+      { title: 'Assessments of Somatic Variant Classification (AMP/ASCO/CAP)', authors: 'Revisão · variantes somáticas', file: 'artigos/Assessments%20of%20Somatic%20Variant%20Classification.pdf', tag: 'SOMÁTICAS' },
+      { title: 'Revisão sobre interpretação de variantes', authors: 'BioMed Research International', file: 'artigos/BioMed%20Research%20International.pdf', tag: 'REVISÃO' },
     ];
 
     // ------------------------------------------------------------
