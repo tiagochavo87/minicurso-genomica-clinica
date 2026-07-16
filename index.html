@@ -321,7 +321,7 @@
 
         <div class="flex flex-wrap gap-2 text-xs">
           <div class="px-3 py-1.5 rounded-full font-mono" style="background: var(--surface); border: 1px solid var(--border); color: var(--muted);">
-            <span class="base-dot A"></span>6 horas
+            <span class="base-dot A"></span>8 horas
           </div>
           <div class="px-3 py-1.5 rounded-full font-mono" style="background: var(--surface); border: 1px solid var(--border); color: var(--muted);">
             <span class="base-dot G"></span>Teórico-prático
@@ -374,7 +374,7 @@
 
         <div class="text-xs leading-relaxed" style="color: var(--muted);">
           Acesso restrito a inscritos no minicurso. Se você é participante e ainda não recebeu acesso, escreva para
-          <a href="mailto:tiagofechaves@gmail.com" style="color: var(--accent);">chaves.smo@gmail.com</a>.
+          <a href="mailto:chaves.smo@gmail.com" style="color: var(--accent);">chaves.smo@gmail.com</a>.
         </div>
       </div>
     </div>
@@ -461,8 +461,8 @@
             <div class="card p-6 relative overflow-hidden">
               <i data-lucide="clock" class="absolute -right-3 -bottom-3 w-24 h-24" style="color: var(--border-hi); opacity: 0.4;"></i>
               <div class="module-eyebrow mb-2"><span class="base-dot A"></span>Duração</div>
-              <div class="font-serif text-3xl">6h</div>
-              <div class="text-sm mt-1" style="color: var(--muted);">2 encontros · 3h cada</div>
+              <div class="font-serif text-3xl">8h</div>
+              <div class="text-sm mt-1" style="color: var(--muted);">2 encontros · 4h cada</div>
             </div>
             <div class="card p-6 relative overflow-hidden">
               <i data-lucide="monitor" class="absolute -right-3 -bottom-3 w-24 h-24" style="color: var(--border-hi); opacity: 0.4;"></i>
@@ -602,7 +602,6 @@
     const AUTHORIZED_EMAILS = [
       'chaves.smo@gmail.com',
       'daniel.bruschi@ufsc.br',
-      'julianeheyde@gmail.com',
       // Adicione os e-mails dos inscritos aqui:
       // 'aluno1@exemplo.com',
       // 'aluno2@exemplo.com',
@@ -623,8 +622,8 @@
       {
         code: '01',
         base: 'A',
-        title: 'Fundamentos de WES e do fluxo bioinformático',
-        subtitle: 'Do FASTQ ao VCF anotado',
+        title: 'Fundamentos de WES e critérios ACMG/AMP',
+        subtitle: 'Do fluxo bioinformático aos refinamentos ClinGen · Encontro 1',
         materials: [
           { type: 'pdf',      title: 'Terminologias e conceitos em sequenciamento de exoma', file: 'materiais/Material%20para%20o%201%C2%B0%20Modulo/Terminologias%20e%20Conceitos%20em%20Sequenciamento%20de%20Exoma..pdf', size: '814 KB', desc: 'Material teórico de apoio ao módulo.' },
           { type: 'pdf',      title: 'Apostila Galaxy · Tutorial',                          file: 'materiais/Material%20para%20o%201%C2%B0%20Modulo/Apostila_Galaxy_Tutorial.pdf', desc: 'Guia passo a passo de uso da plataforma Galaxy.' },
@@ -635,29 +634,11 @@
       },
       {
         code: '02',
-        base: 'T',
-        title: 'Critérios ACMG/AMP e refinamentos ClinGen',
-        subtitle: 'Evidências de patogenicidade e benignidade',
-        materials: [
-          // Adicione os slides e materiais do Módulo 02 aqui quando estiverem prontos.
-        ],
-      },
-      {
-        code: '03',
-        base: 'G',
-        title: 'Preditores in silico e bases de referência',
-        subtitle: 'gnomAD, ClinVar, REVEL, AlphaMissense, SpliceAI',
-        materials: [
-          // Adicione os slides e materiais do Módulo 03 aqui quando estiverem prontos.
-        ],
-      },
-      {
-        code: '04',
         base: 'C',
-        title: 'Plataforma Franklin e estudos de caso',
-        subtitle: 'Curadoria manual e assistida em doenças mendelianas',
+        title: 'Franklin, filtragem e interpretação prática',
+        subtitle: 'Uso da plataforma, filtros de chamadas e classificação de variantes · Encontro 2',
         materials: [
-          // Adicione os slides e materiais do Módulo 04 aqui quando estiverem prontos.
+          // Adicione os slides, roteiros e materiais do Módulo 02 aqui quando estiverem prontos.
         ],
       },
     ];
@@ -734,23 +715,23 @@
     // ------------------------------------------------------------
     const SCHEDULE = [
       {
-        day: 'Encontro 1',
-        date: 'A definir',
+        day: 'Encontro 1 · Terça-feira',
+        date: '21 de julho de 2026',
         base: 'A',
         blocks: [
-          { time: '00:00 – 01:15', title: 'Fundamentos de WES', desc: 'Pipeline bioinformático, do FASTQ ao VCF anotado.' },
-          { time: '01:15 – 01:30', title: 'Intervalo', desc: '' },
-          { time: '01:30 – 03:00', title: 'Critérios ACMG/AMP', desc: 'Evidências de patogenicidade e benignidade. Introdução ao Franklin.' },
+          { time: '08:00 – 09:30', title: 'Fundamentos de WES e do fluxo bioinformático', desc: 'Do FASTQ ao VCF anotado. Uso do Galaxy para processamento de dados de exoma.' },
+          { time: '09:30 – 09:45', title: 'Intervalo', desc: '' },
+          { time: '09:45 – 12:00', title: 'Critérios ACMG/AMP e refinamentos ClinGen', desc: 'Evidências de patogenicidade e benignidade, atualizações contemporâneas das diretrizes.' },
         ],
       },
       {
-        day: 'Encontro 2',
-        date: 'A definir',
-        base: 'G',
+        day: 'Encontro 2 · Quarta-feira',
+        date: '22 de julho de 2026',
+        base: 'C',
         blocks: [
-          { time: '00:00 – 01:15', title: 'Preditores in silico e refinamentos ClinGen', desc: 'REVEL, AlphaMissense, SpliceAI. PVS1, PP3/BP4 calibrados.' },
-          { time: '01:15 – 01:30', title: 'Intervalo', desc: '' },
-          { time: '01:30 – 03:00', title: 'Estudos de caso', desc: 'Interpretação completa de casos reais e elaboração de laudo simplificado.' },
+          { time: '08:00 – 09:30', title: 'Utilização da plataforma Franklin', desc: 'Interface, upload de VCF, painéis virtuais e classificação assistida.' },
+          { time: '09:30 – 09:45', title: 'Intervalo', desc: '' },
+          { time: '09:45 – 12:00', title: 'Filtragem e interpretação prática de variantes', desc: 'Aplicação dos filtros de chamadas e classificação de variantes em estudos de caso reais.' },
         ],
       },
     ];
