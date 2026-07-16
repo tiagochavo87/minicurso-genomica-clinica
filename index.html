@@ -496,7 +496,7 @@
           </div>
 
           <div class="module-eyebrow mb-4">Ministrantes</div>
-          <div class="grid md:grid-cols-2 gap-4">
+          <div class="grid md:grid-cols-3 gap-4">
             <div class="card p-5 relative overflow-hidden">
               <i data-lucide="flask-conical" class="absolute -right-4 -bottom-4 w-28 h-28" style="color: var(--border-hi); opacity: 0.3;"></i>
               <div class="relative">
@@ -511,6 +511,14 @@
                 <div class="font-serif text-xl mb-1">Daniel Pacheco Bruschi</div>
                 <div class="text-sm mb-2" style="color: var(--muted);">UFSC</div>
                 <div class="text-sm">Genética evolutiva e genômica.</div>
+              </div>
+            </div>
+            <div class="card p-5 relative overflow-hidden">
+              <i data-lucide="test-tube" class="absolute -right-4 -bottom-4 w-28 h-28" style="color: var(--border-hi); opacity: 0.3;"></i>
+              <div class="relative">
+                <div class="font-serif text-xl mb-1">Ma. Juliane Heyde dos Santos</div>
+                <div class="text-sm mb-2" style="color: var(--muted);">Doutoranda · LAPOGE/UFSC</div>
+                <div class="text-sm">Genética humana e interpretação de variantes.</div>
               </div>
             </div>
           </div>
@@ -694,6 +702,15 @@
       { title: 'Data science and AI-based variant reinterpretation', authors: 'Jackson et al., Am J Med Genet A, 2024', file: 'artigos/American%20J%20of%20Med%20Genetics%20Pt%20A%20-%202024%20-%20Jackson%20-%20Applying%20data%20science%20methodologies%20with%20artificial%20intelligence%20variant.pdf', tag: 'IA · 2024' },
       { title: 'Assessments of Somatic Variant Classification (AMP/ASCO/CAP)', authors: 'Revisão · variantes somáticas', file: 'artigos/Assessments%20of%20Somatic%20Variant%20Classification.pdf', tag: 'SOMÁTICAS' },
       { title: 'Revisão sobre interpretação de variantes', authors: 'BioMed Research International', file: 'artigos/BioMed%20Research%20International.pdf', tag: 'REVISÃO' },
+
+      // Atualizações e refinamentos dos critérios ACMG/AMP (ClinGen SVI) — links externos
+      { title: 'Modeling the ACMG/AMP guidelines as a Bayesian classification framework', authors: 'Tavtigian et al., Genet Med, 2018', file: 'https://doi.org/10.1038/gim.2017.210', tag: 'BAYESIANO' },
+      { title: 'Recommendations for interpreting the loss-of-function PVS1 criterion', authors: 'Abou Tayoun et al., Hum Mutat, 2018 · ClinGen SVI', file: 'https://doi.org/10.1002/humu.23626', tag: 'PVS1' },
+      { title: 'Calibration of computational tools for missense pathogenicity classification (PP3/BP4)', authors: 'Pejaver et al., Am J Hum Genet, 2022 · ClinGen SVI', file: 'https://doi.org/10.1016/j.ajhg.2022.10.013', tag: 'PP3/BP4' },
+      { title: 'Recommendation for the benign stand-alone ACMG/AMP criterion (BA1)', authors: 'Ghosh et al., Hum Mutat, 2018 · ClinGen SVI', file: 'https://doi.org/10.1002/humu.23555', tag: 'BA1' },
+      { title: 'Using the ACMG/AMP framework to capture evidence for splicing', authors: 'Walker et al., Am J Hum Genet, 2023 · ClinGen SVI', file: 'https://doi.org/10.1016/j.ajhg.2023.06.002', tag: 'SPLICING' },
+      { title: 'Specifications of the ACMG/AMP guidelines · overview VCEPs', authors: 'Rivera-Muñoz et al., Hum Mutat, 2018', file: 'https://doi.org/10.1002/humu.23645', tag: 'VCEPs' },
+      { title: 'Reappraisal of reputable source ACMG/AMP variant criteria (PP5/BP6)', authors: 'Biesecker et al., Genet Med, 2018', file: 'https://doi.org/10.1038/gim.2018.42', tag: 'PP5/BP6' },
     ];
 
     // ------------------------------------------------------------
@@ -706,6 +723,7 @@
       { title: 'ClinVar', url: 'https://www.ncbi.nlm.nih.gov/clinvar/', desc: 'Banco público de variantes clinicamente relatadas.' },
       { title: 'ClinGen', url: 'https://clinicalgenome.org', desc: 'Recomendações e refinamentos das diretrizes ACMG.' },
       { title: 'OMIM', url: 'https://www.omim.org', desc: 'Catálogo online de doenças mendelianas.' },
+      { title: 'Human Phenotype Ontology (HPO)', url: 'https://hpo.jax.org/', desc: 'Ontologia padronizada de fenótipos humanos para descrição clínica.' },
       { title: 'VarSome', url: 'https://varsome.com', desc: 'Ferramenta integradora de anotação e classificação.' },
       { title: 'I SIMOL 2026', url: 'https://www.simol2026.com.br/index.html', desc: 'Site oficial do evento.' },
     ];
