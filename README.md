@@ -1,85 +1,62 @@
-# Plataforma do Minicurso · Genômica Clínica
+# CNV Pipeline — MMRF CoMMpass (GDC)
 
-Página estática de apoio ao minicurso **Interpretação Clínica de Variantes Genômicas Germinativas: Aplicação dos Critérios ACMG em Dados de Sequenciamento de Exoma**.
+A GitHub-ready Jupyter notebook pipeline to **process**, **QC**, and **analyze** Copy Number Variation (CNV) segments from the **MMRF CoMMpass** cohort via the NCI **Genomic Data Commons (GDC)**.
 
-Pensada para hospedagem em **GitHub Pages** e reutilizável em diferentes edições do curso.
+This repository focuses on *downstream* CNV segment analytics (recurrence summaries, cytoband / fixed-bin aggregation, clinical integration, and survival/staging evaluation). The pipeline is designed to run in **Google Colab** or locally.
 
-## Como hospedar no GitHub
+> Updated notebook version: **V7** (2026-02-05)
 
-1. Crie um novo repositório público no GitHub (ex.: `minicurso-genomica-clinica`).
-2. Faça upload do arquivo `index.html` e das pastas de materiais na raiz do repositório.
-3. Ative o GitHub Pages: **Settings → Pages → Source: Deploy from a branch → Branch: `main` / folder: `/root`**.
-4. Após alguns minutos, sua página estará em `https://SEU-USUARIO.github.io/minicurso-genomica-clinica/`.
+## Repository contents
 
-## Estrutura de pastas recomendada
+- `CNV_MMRF_COMMPASS_Pipeline_GitHub_Documented.ipynb`  
+  Main notebook (outputs stripped to keep diffs clean).
 
-```
-/
-├── index.html                 ← página principal
-├── materiais/                 ← slides e handouts em PDF
-│   ├── mod01_slides.pdf
-│   ├── mod01_handout.pdf
-│   ├── mod02_slides.pdf
-│   ├── mod02_criterios.pdf
-│   ├── mod03_slides.pdf
-│   ├── mod03_calibracao.pdf
-│   ├── mod04_slides.pdf
-│   └── mod04_casos.pdf
-├── dados/                     ← VCFs, workflows Galaxy, planilhas
-│   ├── caso01.vcf.gz
-│   ├── caso02.vcf.gz
-│   ├── caso03.vcf.gz
-│   ├── galaxy_workflow_wes.ga
-│   ├── galaxy_workflow_panel.ga
-│   └── planilha_acmg.xlsx
-└── artigos/                   ← PDFs de artigos científicos
-    ├── richards_2015.pdf
-    ├── tavtigian_2018.pdf
-    ├── abou_tayoun_2018.pdf
-    ├── pejaver_2022.pdf
-    └── chen_2024.pdf
+- `CNV_MMRF_COMMPASS_Pipeline_GitHub_Documented_NO_OUTPUTS.ipynb`  
+  Same notebook, explicitly output-free (recommended for version control).
+
+- `requirements.txt`  
+  Best-effort dependency list for local execution.
+
+- `docs/PIPELINE_OVERVIEW.md`  
+  High-level description of stages, inputs, and outputs.
+
+## Quickstart (local)
+
+```bash
+python -m venv .venv
+# Linux/Mac:
+source .venv/bin/activate
+# Windows (PowerShell):
+# .venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
+jupyter lab
 ```
 
-## Personalização
+Open the notebook and run it from top to bottom.
 
-Toda configuração fica em um único bloco no topo do `<script>` no `index.html`, marcado como `CONFIGURAÇÃO`.
+## Quickstart (Google Colab)
 
-### E-mails autorizados
+Upload the notebook to Colab and run top-to-bottom.  
+If you store inputs in Google Drive, mount Drive and point the notebook to your `.tsv` inputs.
 
-```js
-const AUTHORIZED_EMAILS = [
-  'chaves.smo@gmail.com',
-  'aluno1@exemplo.com',
-  'aluno2@ufsc.br',
-];
-```
+## Outputs
 
-### Aceitar domínios acadêmicos automaticamente
+All artifacts are written under:
 
-```js
-const ACCEPT_ACADEMIC_DOMAINS = true;  // aceita .edu.br, ufsc.br, etc.
-```
+- `outputs/run_<RUN_ID>/raw/`
+- `outputs/run_<RUN_ID>/processed/`
+- `outputs/run_<RUN_ID>/results/`
+- `outputs/run_<RUN_ID>/logs/`
 
-### Link do Google Meet
+The notebook ends with a concise list of deliverables and their paths.
 
-```js
-const MEET_LINK = 'https://meet.google.com/abc-defg-hij';
-```
+## Notes / limitations
 
-### Conteúdo
+- **Exact-breakpoint recurrence** (`SegmentID = chr:start-end`) is included for comparability, but breakpoint variation can underestimate biological recurrence.
+- **Cytoband overlap** and **fixed 1Mb bins** provide more stable recurrence summaries.
+- When working with CNVs already called upstream, **purity/ploidy adjustment may be unavailable**; the pipeline is explicit about this limitation.
 
-Cada seção tem seu próprio array: `MODULES`, `DATA_FILES`, `VIDEOS`, `ARTICLES`, `LINKS`, `SCHEDULE`. Edite seguindo o modelo de cada item.
+## License
 
-Para vídeos, use o link embed do YouTube (`https://www.youtube.com/embed/ID_DO_VIDEO`).
-
-## Segurança
-
-Este é um sistema de controle de acesso client-side. Qualquer pessoa suficientemente técnica pode inspecionar o código-fonte e ver a lista de e-mails autorizados. Aceitável para materiais acadêmicos de curso, mas não use para dados sensíveis.
-
-## Tecnologias
-
-- HTML/CSS/JS puro
-- Tailwind CSS via CDN
-- Lucide Icons via CDN
-- Google Fonts (Instrument Serif, Inter, JetBrains Mono)
-- Sem build, sem dependências, sem servidor
+MIT (see `LICENSE`).
